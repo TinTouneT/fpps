@@ -1,0 +1,75 @@
+Begin Object Class=Material Name="SilhouetteCharacter"
+   Begin Object Class=MaterialExpressionConstant Name="MaterialExpressionConstant_0"
+   End Object
+   Begin Object Class=MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_0"
+   End Object
+   Begin Object Class=MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_0"
+   End Object
+   Begin Object Class=MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_2"
+   End Object
+   Begin Object Class=MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_3"
+   End Object
+   Begin Object Class=SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_0"
+      R=662.135986
+      MaterialExpressionEditorX=-448
+      MaterialExpressionEditorY=128
+      MaterialExpressionGuid=1C3474B0407884D5C730758A95EA5FB0
+      Material=Material'SilhouetteCharacter'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_0"
+      A=(Expression=MaterialExpressionVectorParameter'SilhouetteCharacter:MaterialExpressionVectorParameter_2',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionVectorParameter'SilhouetteCharacter:MaterialExpressionVectorParameter_3',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Alpha=(Expression=MaterialExpressionMaterialFunctionCall'SilhouetteCharacter:MaterialExpressionMaterialFunctionCall_0')
+      MaterialExpressionEditorX=-48
+      MaterialExpressionEditorY=-96
+      MaterialExpressionGuid=21AAFFD84EB7A4407F7024AEB84EA712
+      Material=Material'SilhouetteCharacter'
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_0"
+      MaterialFunction=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.CameraDepthFade'
+      FunctionInputs(0)=(ExpressionInputId=79FFEA6C4F3A46F51F8E50A349E4BB4B,Input=(Expression=MaterialExpressionConstant'SilhouetteCharacter:MaterialExpressionConstant_0',InputName="Fade Length"))
+      FunctionInputs(1)=(ExpressionInputId=D5EC0E2F4DB888679BFC2A8B921262ED,Input=(Expression=MaterialExpressionConstant'SilhouetteCharacter:MaterialExpressionConstant_0',InputName="Fade Offset"))
+      FunctionInputs(2)=(ExpressionInputId=7B4195E6455691CA3782398687468578,Input=(OutputIndex=-1,InputName="For Vertex Shader"))
+      FunctionOutputs(0)=(ExpressionOutputId=160C00424E845E293F44DCBE13738CEE,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-256
+      MaterialExpressionEditorY=144
+      MaterialExpressionGuid=36DB3A704B2CD12BC6AD57913F5178EE
+      Material=Material'SilhouetteCharacter'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_2"
+      DefaultValue=(R=0.385000,G=0.006178,B=0.000000,A=0.000000)
+      ExpressionGUID=D08F804E45435A01DF31DDB5ED8514A2
+      MaterialExpressionEditorX=-352
+      MaterialExpressionEditorY=-272
+      MaterialExpressionGuid=A9B82EA547230B106164289EE2746D75
+      Material=Material'SilhouetteCharacter'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_3"
+      ExpressionGUID=6A6C2FDE43DD2AC4EC2E89ACABB0DEC7
+      MaterialExpressionEditorX=-352
+      MaterialExpressionEditorY=-96
+      MaterialExpressionGuid=A9B82EA547230B106164289EE2746D75
+      Material=Material'SilhouetteCharacter'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   EmissiveColor=(Expression=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_0')
+   ShadingModel=MSM_Unlit
+   TwoSided=True
+   bUsedWithStaticLighting=True
+   EditorX=320
+   EditorY=-64
+   Expressions(0)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_0'
+   Expressions(1)=MaterialExpressionVectorParameter'MaterialExpressionVectorParameter_2'
+   Expressions(2)=MaterialExpressionVectorParameter'MaterialExpressionVectorParameter_3'
+   Expressions(3)=MaterialExpressionMaterialFunctionCall'MaterialExpressionMaterialFunctionCall_0'
+   Expressions(4)=MaterialExpressionConstant'MaterialExpressionConstant_0'
+   MaterialFunctionInfos(0)=(StateId=DD44CC9D4987047FE7B9B381E4FC7145,Function=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.CameraDepthFade')
+   bCanMaskedBeAssumedOpaque=True
+   StateId=5E3870AE42DC56A32C9713927EDD93B8
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_0'
+   LightingGuid=2567E0494B1C6C2949D5E5AB38067EBE
+End Object

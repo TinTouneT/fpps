@@ -1,0 +1,32 @@
+Event	ID	Name			Wwise Object Path	Notes
+	586656537	Stop_sifflement			\Default Work Unit\Stop_sifflement	
+	941285355	Play_sifflement			\Default Work Unit\Play_sifflement	
+	1504881854	Play_fistfull__music			\Default Work Unit\Play_fistfull__music	
+	1757098788	Play_crachat			\Default Work Unit\Play_crachat	
+	2805109339	Play_Revolver_HammerRelease			\Default Work Unit\Play_Revolver_HammerRelease	
+	3018513178	Play_allumettes			\Default Work Unit\Play_allumettes	
+	3340477080	Play_tire			\Default Work Unit\Play_tire	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1992488372	state_music			\Default Work Unit\state_music	
+
+State	ID	Name	State Group			Notes
+	748895195	None	state_music			
+	3177314144	part2	state_music			
+	3177314145	part3	state_music			
+	3177314147	part1	state_music			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	59616685	tire_3	C:\Users\alexandre.schnepf\Desktop\wwise_fistfull$\.cache\Windows\SFX\tire_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\tire\tire_3		52288
+	199355101	tire_2	C:\Users\alexandre.schnepf\Desktop\wwise_fistfull$\.cache\Windows\SFX\tire_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\tire\tire_2		58530
+	276912601	s&w_gunfire_2_01	C:\Users\alexandre.schnepf\Desktop\wwise_fistfull$\.cache\Windows\SFX\s&w_gunfire.2_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\tire\s&w_gunfire_2_01		449340
+	289970000	allumette	C:\Users\alexandre.schnepf\Desktop\wwise_fistfull$\.cache\Windows\SFX\allumette_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\allumettes\allumette		261608
+	323159780	fistfull$_mus_part1	C:\Users\alexandre.schnepf\Desktop\wwise_fistfull$\.cache\Windows\SFX\fistfull$_mus_part1_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\fistfull$_music\fistfull$_part_1\part1\fistfull$_mus_part1		2971424
+	336611635	Revolver_HammerRelease	C:\Users\alexandre.schnepf\Desktop\wwise_fistfull$\.cache\Windows\SFX\Gun_Revolver_HammerReleaseA_DynInt004.130_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Revolver_HammerRelease		5122
+	473686085	fistfull$_mus_part3	C:\Users\alexandre.schnepf\Desktop\wwise_fistfull$\.cache\Windows\SFX\fistfull$_mus_part3_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\fistfull$_music\fistfull$_part_3\part3\fistfull$_mus_part3		9701696
+	510908252	sifflement	C:\Users\alexandre.schnepf\Desktop\wwise_fistfull$\.cache\Windows\SFX\sifflement_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\sifflement		2927582
+	588731478	fistfull$_mus_pre_part1	C:\Users\alexandre.schnepf\Desktop\wwise_fistfull$\.cache\Windows\SFX\fistfull$_mus_pre_part1_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\fistfull$_music\fistfull$_pre_part_1\prepart1\fistfull$_mus_pre_part1		834448
+	622743628	fistfull$_mus_part2	C:\Users\alexandre.schnepf\Desktop\wwise_fistfull$\.cache\Windows\SFX\fistfull$_mus_part2_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\fistfull$_music\fistfull$_part_2\part2\fistfull$_mus_part2		5155412
+	885278019	crachat	C:\Users\alexandre.schnepf\Desktop\wwise_fistfull$\.cache\Windows\SFX\crachat_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\crachat		7872
+	1072858329	s&w_gunfire	C:\Users\alexandre.schnepf\Desktop\wwise_fistfull$\.cache\Windows\SFX\s&w_gunfire_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\tire\s&w_gunfire		489064
+

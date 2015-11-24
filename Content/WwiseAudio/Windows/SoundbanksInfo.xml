@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>C:\Users\alexandre.schnepf\Desktop\wwise_fistfull$\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\alexandre.schnepf\Desktop\wwise_fistfull$\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\alexandre.schnepf\Desktop\FistfulOfDollars\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\alexandre.schnepf\Desktop\wwise_fistfull$\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1661994096" Language="SFX">
+			<ShortName>SoundBank</ShortName>
+			<Path>SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3018513178" Name="Play_allumettes"/>
+				<Event Id="1757098788" Name="Play_crachat"/>
+				<Event Id="1504881854" Name="Play_fistfull__music"/>
+				<Event Id="2805109339" Name="Play_Revolver_HammerRelease"/>
+				<Event Id="941285355" Name="Play_sifflement"/>
+				<Event Id="3340477080" Name="Play_tire"/>
+				<Event Id="586656537" Name="Stop_sifflement"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="59616685" Language="SFX">
+					<ShortName>tire_3.wav</ShortName>
+					<Path>SFX\tire_3_9E69E797.wem</Path>
+				</File>
+				<File Id="199355101" Language="SFX">
+					<ShortName>tire_2.wav</ShortName>
+					<Path>SFX\tire_2_9E69E797.wem</Path>
+				</File>
+				<File Id="276912601" Language="SFX">
+					<ShortName>s&amp;w_gunfire.2_01.wav</ShortName>
+					<Path>SFX\s&amp;w_gunfire.2_01_9E69E797.wem</Path>
+				</File>
+				<File Id="289970000" Language="SFX">
+					<ShortName>allumette.wav</ShortName>
+					<Path>SFX\allumette_9E69E797.wem</Path>
+				</File>
+				<File Id="323159780" Language="SFX">
+					<ShortName>fistfull$_mus_part1.wav</ShortName>
+					<Path>SFX\fistfull$_mus_part1_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="336611635" Language="SFX">
+					<ShortName>Gun_Revolver_HammerReleaseA_DynInt004.130_01.wav</ShortName>
+					<Path>SFX\Gun_Revolver_HammerReleaseA_DynInt004.130_01_9E69E797.wem</Path>
+				</File>
+				<File Id="473686085" Language="SFX">
+					<ShortName>fistfull$_mus_part3.wav</ShortName>
+					<Path>SFX\fistfull$_mus_part3_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="510908252" Language="SFX">
+					<ShortName>sifflement.wav</ShortName>
+					<Path>SFX\sifflement_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="588731478" Language="SFX">
+					<ShortName>fistfull$_mus_pre_part1.wav</ShortName>
+					<Path>SFX\fistfull$_mus_pre_part1_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="622743628" Language="SFX">
+					<ShortName>fistfull$_mus_part2.wav</ShortName>
+					<Path>SFX\fistfull$_mus_part2_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="885278019" Language="SFX">
+					<ShortName>crachat.wav</ShortName>
+					<Path>SFX\crachat_9E69E797.wem</Path>
+				</File>
+				<File Id="1072858329" Language="SFX">
+					<ShortName>s&amp;w_gunfire.wav</ShortName>
+					<Path>SFX\s&amp;w_gunfire_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
